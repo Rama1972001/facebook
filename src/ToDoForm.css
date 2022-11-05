@@ -1,0 +1,147 @@
+.first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding-top: 4rem;
+}
+
+.todo_wrapper {
+  font-size: 2rem;
+  color: #585858;
+  list-style: none;
+  margin: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  max-width: 500px;
+  position: relative;
+}
+
+.todo_item {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font: size 1.3rem;
+  color: darkmagenta;
+
+}
+
+.todo_item>button {
+  margin: 0 0px 13px 13px;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.todo_item>button:hover {
+  color: wheat;
+  background: violet;
+}
+
+.clear,
+.add {
+
+  padding-top: 4rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.clear:hover,
+.add:hover {
+  color: wheat;
+  font-weight: 700px;
+  background: violet;
+}
+
+input {
+  font-size: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+input:focus {
+  outline: none !important;
+
+  color: indigo;
+  border: 2px solid violet;
+}
+
+textarea:focus {
+  outline: none !important;
+  font-size: 17px;
+  color: indigo;
+  border: 2px solid violet;
+}
+
+
+
+.first {
+  justify-content: center;
+  /* center items horizontally, in this case */
+  align-items: center;
+  /* center items vertically, in this case */
+  display: flex;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+}
+
+.HEADER {
+  max-width: 80vh;
+  margin: 1px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid none;
+  padding: 1px;
+  border-radius: 5px;
+  background-color: #313133a4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
+.todo_item {
+  background: #c072b031;
+  margin: 7px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+.todo_item h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  word-break: break-all;
+}
+
+.todo_item h5 {
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
