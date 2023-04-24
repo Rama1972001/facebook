@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+ */
+
+ .form-group{
+width:80%;
+margin-left:2rem
+ }
+
+.button-group{
+  display: flex;
+  justify-content:space-evenly;
+}
+
